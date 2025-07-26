@@ -6,12 +6,12 @@
 
 ## 📋 Overview
 
-- **Description**: This repository appears to be a backend service for an IoT project, possibly handling device data and interactions with a MongoDB database.
+- **Description**: This repository contains code for an IoT project that interfaces with various APIs to manage and monitor IoT devices.
 - **Type**: API
 - **Status**: Experimental
-- **Main Purpose**: Handles interactions and data management between IoT devices and a MongoDB database.
+- **Main Purpose**: Manages and monitors IoT devices using AWS Lambda and MongoDB.
 - **Language**: JavaScript
-- **Repository Size**: 915 KB
+- **Repository Size**: 916 KB
 
 ## 🛠 Tech Stack
 
@@ -21,37 +21,35 @@
 - **Key Dependencies**:
   - mongoose
   - aws-sdk
-  - mqtt
+  - mongodb
 
 ## 🏗 Architecture
 
-- **Structure Overview**: The repository contains a flat structure with no directories, just a few key JavaScript files and a README.
+- **Structure Overview**: The repository consists of a few JavaScript files and documentation, with no distinct folder structure.
 
 - **Entry Points**:
   - `index.js`
   - `init.js`
 
 - **Design Patterns**:
-  - Module pattern
-  - Callback pattern
+  - Serverless
+  - Event-driven
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js installed
-- MongoDB account
 - AWS account
+- MongoDB account
 
 ### Installation
 ```bash
-1. Extract node_modules.7z
-2. Configure MongoDB URI in index.js
-3. Set up AWS Lambda and IoT services as per the code in init.js and index.js
+1. Extract node_modules.7z. 2. Configure AWS and MongoDB credentials in the code. 3. Deploy the Lambda function.
 ```
 
 ### Usage
 ```bash
-Deploy the index.js to AWS Lambda, and use init.js for local device simulation or testing.
+Invoke the Lambda function through AWS to manage IoT devices.
 ```
 
 ## 🤝 Contributing
@@ -69,6 +67,6 @@ For more information, visit the [repository](https://github.com/Cannass/IOTProje
 
 ---
 
-*This documentation was automatically generated on 2025-07-25 21:01:19*
+*This documentation was automatically generated on 2025-07-26 23:53:20*
 
 *For the most up-to-date information, please refer to the repository's README and source code.*
