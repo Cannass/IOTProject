@@ -6,10 +6,10 @@
 
 ## 📋 Overview
 
-- **Description**: This repository contains code for an IoT project that interfaces with various APIs to manage and monitor IoT devices.
+- **Description**: This repository appears to be an IoT project involving device management and data handling with AWS IoT and MongoDB.
 - **Type**: API
 - **Status**: Experimental
-- **Main Purpose**: Manages and monitors IoT devices using AWS Lambda and MongoDB.
+- **Main Purpose**: Handles device data and interactions in an IoT environment using AWS IoT and MongoDB.
 - **Language**: JavaScript
 - **Repository Size**: 916 KB
 
@@ -21,18 +21,18 @@
 - **Key Dependencies**:
   - mongoose
   - aws-sdk
-  - mongodb
+  - mqtt
 
 ## 🏗 Architecture
 
-- **Structure Overview**: The repository consists of a few JavaScript files and documentation, with no distinct folder structure.
+- **Structure Overview**: The repository contains a flat structure with a few JavaScript and Markdown files, and a compressed node_modules directory.
 
 - **Entry Points**:
   - `index.js`
   - `init.js`
 
 - **Design Patterns**:
-  - Serverless
+  - Module pattern
   - Event-driven
 
 ## 🚀 Quick Start
@@ -44,12 +44,12 @@
 
 ### Installation
 ```bash
-1. Extract node_modules.7z. 2. Configure AWS and MongoDB credentials in the code. 3. Deploy the Lambda function.
+Extract node_modules.7z, configure AWS and MongoDB credentials, and run 'node index.js' to start.
 ```
 
 ### Usage
 ```bash
-Invoke the Lambda function through AWS to manage IoT devices.
+Use the deployed API to manage IoT devices and interact with AWS IoT and MongoDB for device data handling.
 ```
 
 ## 🤝 Contributing
@@ -67,6 +67,6 @@ For more information, visit the [repository](https://github.com/Cannass/IOTProje
 
 ---
 
-*This documentation was automatically generated on 2025-07-26 23:53:20*
+*This documentation was automatically generated on 2025-07-26 23:57:18*
 
 *For the most up-to-date information, please refer to the repository's README and source code.*
